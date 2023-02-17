@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="mewtwo.cpp" />
+    <ClCompile Include="picachu.cpp" />
     <ClCompile Include="pokemon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mewtwo.h" />
+    <ClInclude Include="picachu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
